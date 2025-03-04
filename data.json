@@ -1,0 +1,99 @@
+[
+    {
+      "Item Number": 2,
+      "Item Type": "WHOLE CHICKEN",
+      "Brand Name": "Chilled",
+      "Item Size": "454g",
+      "Supermarket Name": "Massy Stores St. Augustine",
+      "Item Price": 15.91,
+      "Supermarket Region Location": "East",
+      "Item Category": "Meat & Poultry"
+    },
+    {
+      "Item Number": 8,
+      "Item Type": "PORK STEW",
+      "Item Size": "454g",
+      "Supermarket Name": "Massy Stores St. Augustine",
+      "Item Price": 22.72,
+      "Supermarket Region Location": "East",
+      "Item Category": "Meat & Poultry"
+    },
+    {
+      "Item Number": 9,
+      "Item Type": "BEEF STEW",
+      "Item Size": "454g",
+      "Supermarket Name": "Massy Stores St. Augustine",
+      "Item Price": 23.63,
+      "Supermarket Region Location": "East",
+      "Item Category": "Meat & Poultry"
+    },
+    {
+      "Item Number": 10,
+      "Item Type": "PIG TAIL",
+      "Item Size": "454g",
+      "Supermarket Name": "Massy Stores St. Augustine",
+      "Item Price": 25.0,
+      "Supermarket Region Location": "East",
+      "Item Category": "Other"
+    },
+    {
+      "Item Number": 11,
+      "Item Type": "CHICKEN FRANKS",
+      "Brand Name": "Erin Farm",
+      "Item Size": "12pk",
+      "Supermarket Name": "Massy Stores St. Augustine",
+      "Item Price": 17.99,
+      "Supermarket Region Location": "East",
+      "Item Category": "Meat & Poultry"
+    },
+    {
+      "Item Number": 12,
+      "Item Type": "SALTED FISH (w/Bone)",
+      "Brand Name": "Unbranded",
+      "Item Size": "454g",
+      "Supermarket Name": "Massy Stores St. Augustine",
+      "Item Price": 31.36,
+      "Supermarket Region Location": "East",
+      "Item Category": "Meat & Poultry"
+    },
+    {
+      "Item Number": 14,
+      "Item Type": "SALTED FISH (Boneless)",
+      "Brand Name": "Unbranded",
+      "Item Size": "454g",
+      "Supermarket Name": "Massy Stores St. Augustine",
+      "Item Price": 41.59,
+      "Supermarket Region Location": "East",
+      "Item Category": "Meat & Poultry"
+    },
+    {
+      "Item Number": 16,
+      "Item Type": "SALTED FISH (Boneless)",
+      "Brand Name": "Branded",
+      "Item Size": "340g",
+      "Supermarket Name": "Massy Stores St. Augustine",
+      "Item Price": 26.99,
+      "Supermarket Region Location": "East",
+      "Item Category": "Meat & Poultry"
+    },
+    {
+      "Item Number": 17,
+      "Item Type": "SMOKED HERRING (w/Bone)",
+      "Item Size": "454g",
+      "Supermarket Name": "Massy Stores St. Augustine",
+      "Item Price": 34.54,
+      "Supermarket Region Location": "East",
+      "Item Category": "Other"
+    },
+    {
+      "Item Number": 18,
+      "Item Type": "FRESH BUTTER",
+      "Brand Name": "Kerrygold",
+      "Item Size": "454g",
+      "Supermarket Name": "Massy Stores St. Augustine",
+      "Item Price": 66.5,
+      "Supermarket Region Location": "East",
+      "Item Category": "Dairy"
+    }
+  ]
+  
