@@ -1,14 +1,26 @@
 import streamlit as st
-import pandas as pd
-import json
-import seaborn as sns
+import pandas as pd 
+import pymongo
 import matplotlib.pyplot as plt
+import seaborn as sns
 
-# Load Data from JSON
+# MongoDB Connection URI (Replace with your actual URI)
+MONGO_URI = "mongodb+srv://pipsglobally:ueEbdPP8nWF3oeXC@cluster0.hu59d.mongodb.net/supermarket_db?retryWrites=true&w=majority"
+
+
+# Connect to MongoDB
+@st.cache_data
+def get_database():
+    client = pymongo.MongoClient(MONGO_URI)
+    db = client["supermarket_db"]  # Database Name
+    return db
+
+# Fetch Data from MongoDB
 @st.cache_data
 def load_data():
-    with open("data.json", "r") as file:
-        data = json.load(file)
+    db = get_database()
+    collection = db["prices"]  # Collection Name
+    data = list(collection.find({}, {"_id": 0}))  # Fetch all records, excluding MongoDB's default `_id`
     return pd.DataFrame(data)
 
 df = load_data()
@@ -17,7 +29,7 @@ df = load_data()
 st.title("Supermarket Prices Dashboard 🛒💰")
 
 # Display raw data
-st.subheader("📋 Raw Data")
+st.subheader("📋 Raw Data from MongoDB")
 st.dataframe(df)
 
 # Average price per category
@@ -45,4 +57,3 @@ st.subheader("🔍 Filter by Category")
 selected_category = st.selectbox("Choose a Category:", df["Item Category"].unique())
 filtered_data = df[df["Item Category"] == selected_category]
 st.dataframe(filtered_data)
-
